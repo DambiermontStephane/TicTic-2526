@@ -3,6 +3,7 @@ import 'package:tictic/screens/welcome/widgets/text_divider.dart';
 
 import '../../../constants/colors.dart';
 import '../../../constants/sizes.dart';
+import '../../register/register.dart';
 
 class CallToActions extends StatelessWidget {
   const CallToActions({super.key});
@@ -27,7 +28,9 @@ class CallToActions extends StatelessWidget {
               children: [
                 ElevatedButton(onPressed: () {}, child: Text('Je me connecte')),
                 SizedBox(width: kHorizontalPadding),
-                ElevatedButton(onPressed: () {}, child: Text('Créer un compte'))
+                ElevatedButton(onPressed: () {
+                  Navigator.pushNamed(context, Register.routeName);
+                }, child: Text('Créer un compte'))
               ],
             ),
           ),
