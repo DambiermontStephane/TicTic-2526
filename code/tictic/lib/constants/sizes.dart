@@ -21,3 +21,5 @@ const kHorizontalPaddingXXL = kHorizontalPaddingXL * 2;
 const kVerticalPaddingXXL = kVerticalPaddingXL * 2;
 
 const kBorderRarius = 12.0;
+
+const kDividerHeight = 3.0;

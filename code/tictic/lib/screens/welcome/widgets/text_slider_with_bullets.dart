@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tictic/screens/welcome/widgets/textSlider.dart';
+import 'package:tictic/screens/welcome/widgets/text_slider.dart';
 
 import 'bullets.dart';
 

@@ -31,7 +31,7 @@ class _TextsliderState extends State<TextSlider> {
             padding: const EdgeInsets.symmetric(
               horizontal: kHorizontalPaddingS,
             ),
-            child: Text(widget.items[index], style: kTagLine),
+            child: Text(widget.items[index], style: kTagLine, textAlign: TextAlign.center,),
           );
         },
       ),
