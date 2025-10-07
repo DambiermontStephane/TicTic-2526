@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'TicTic',
       routes: routes,
+      supportedLocales: [const Locale('en', 'fr')],
       theme: kAppTheme,
     );
   }
